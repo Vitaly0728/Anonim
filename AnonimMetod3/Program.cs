@@ -1,7 +1,6 @@
-﻿using System.Numerics;
-using AnonimProgram2;
+﻿using AnonimProgram2;
 
-namespace Ano
+namespace AnonimMetod3
 {
     internal class Program
     {
@@ -11,7 +10,7 @@ namespace Ano
 
             int callCount = 0;
 
-            Func<string, string> Validator = name =>
+            Func<string, string> frequencyValidator = name =>
             {
                 callCount++;
                 return callCount % 3 == 0 ? "Вы спрашиваете слишком часто" : null;
@@ -21,15 +20,15 @@ namespace Ano
 
             foreach (var planet in planets)
             {
-                var result = catalog.GetPlanet(planet, Validator);
+                var result = catalog.GetPlanet(planet, frequencyValidator);
                 if (result.error == null)
-                    Console.WriteLine($"Название: {planet}, Порядковый номер: {result.order}, Длина экватора: {result.equatorLength} \n");
+                    Console.WriteLine($"Название: {planet}, Порядковый номер: {result.countSun}, Длина экватора: {result.dlina} \n");
                 else
-                    Console.WriteLine(result.error+"\n");
+                    Console.WriteLine(result.error+ "\n");
             }
 
-            // Программа со звездочкой*
-            Func<string, string> Validator2 = name => name == "Лимония" ? "Это запретная планета" : null;
+            Console.WriteLine("Задача со * \n");
+            Func<string, string> forbiddenValidator = name => name == "Лимония" ? "Это запретная планета" : null;
 
             callCount = 0;
 
@@ -37,9 +36,9 @@ namespace Ano
 
             foreach (var planet in planets2)
             {
-                var result = catalog.GetPlanet(planet, Validator2);
+                var result = catalog.GetPlanet(planet, forbiddenValidator);
                 if (result.error == null)
-                    Console.WriteLine($"Название: {planet}, Порядковый номер: {result.order}, Длина экватора: {result.equatorLength} \n");
+                    Console.WriteLine($"Название: {planet}, Порядковый номер: {result.countSun}, Длина экватора: {result.dlina} \n");
                 else
                     Console.WriteLine(result.error+ "\n");
             }

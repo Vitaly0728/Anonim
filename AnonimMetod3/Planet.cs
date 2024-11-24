@@ -13,7 +13,7 @@ namespace AnonimProgram2
         public float Dlina {  get; }
         public Planet? PrevPlanet { get; }
 
-        public Planet(string _name, int _count, float _dlina,Planet _prev)
+        public Planet(string _name, int _count, float _dlina,Planet _prev=null)
         {
             Name = _name;
             CountOfTheSun = _count;

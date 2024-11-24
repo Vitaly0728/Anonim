@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonimMetod", "AnonimMetod\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonimProgram2", "AnonimProgram2\AnonimProgram2.csproj", "{5FF5BE89-4D50-4F1F-8924-EDC9F828EB5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonimProgram3", "Ano\AnonimProgram3.csproj", "{9FB23F69-0958-460C-A2B1-BD89D21F8790}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonimMetod3", "AnonimMetod3\AnonimMetod3.csproj", "{6594760A-2E89-4ED5-A129-C678B82DC79E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{5FF5BE89-4D50-4F1F-8924-EDC9F828EB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF5BE89-4D50-4F1F-8924-EDC9F828EB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF5BE89-4D50-4F1F-8924-EDC9F828EB5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FB23F69-0958-460C-A2B1-BD89D21F8790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FB23F69-0958-460C-A2B1-BD89D21F8790}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FB23F69-0958-460C-A2B1-BD89D21F8790}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FB23F69-0958-460C-A2B1-BD89D21F8790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6594760A-2E89-4ED5-A129-C678B82DC79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6594760A-2E89-4ED5-A129-C678B82DC79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6594760A-2E89-4ED5-A129-C678B82DC79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6594760A-2E89-4ED5-A129-C678B82DC79E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
